@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BLL.Dependencies.BusinessLogicModule">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dependencies\BusinessLogicModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.DTO.ResumeDTO">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAABAAAAAAAgAAAAAAAAAAAAAAAAAAEAAEAAAAA=</HashCode>
+      <FileName>DTO\ResumeDTO.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Vacancies" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="BLL.DTO.RoleDTO">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>DTO\RoleDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.DTO.UserDTO">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACIBAAQAAAAAEAAAAAwABAAAAAAAAAAQAAgAAAA=</HashCode>
+      <FileName>DTO\UserDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.DTO.VacansyDTO">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAgAAAAAAEACAAAEBAAAAAA=</HashCode>
+      <FileName>DTO\VacansyDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Logic.ResumeService" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABACAAAAAAAAAABgCAAQAAAABAAAgAkAAAAAgAAAA=</HashCode>
+      <FileName>Logic\ResumeService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_resumeMapper" />
+      <Field Name="_resumeUpdateMapper" />
+      <Field Name="_unitOfWork" />
+      <Field Name="_vacansyMapper" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BLL.Logic.UserService" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAgAhEAAAAAgAAAAoAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\UserService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_unitOfWork" />
+      <Field Name="_userUpdateMapper" />
+      <Field Name="_userMapper" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BLL.Logic.VacansyService" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABCAAAAAAAAAAAgCAAAAAAAAAQAQIAAAAAAAABQA=</HashCode>
+      <FileName>Logic\VacansyService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_resumeMapper" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DAL.Models.Vacansy">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="BLL.Logic.IResumeService">
+    <Position X="9.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAABAAAAQAAAAAAAAgAkAAAAAgAAAA=</HashCode>
+      <FileName>Logic\IResumeService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BLL.Logic.IUserService">
+    <Position X="6" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAoAAAAAAAAAAA=</HashCode>
+      <FileName>Logic\IUserService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BLL.Logic.IVacansyService">
+    <Position X="7.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAQAQIAAAAAAAAAQA=</HashCode>
+      <FileName>Logic\IVacansyService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DAL.Repository.IUnitOfWork" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="AutoMapper.IMapper" Collapsed="true">
+    <Position X="1" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
